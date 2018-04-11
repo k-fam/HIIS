@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="69" x="16" y="64" width="790" height="913" measuredWidth="790" measuredHeight="913"/>
+  <widgets xsi:type="model:TextField" id="2" x="124" y="136" width="616" text="현대인베스트먼트 로우 프라이스 증권자투자신탁1호" measuredWidth="616" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="65" y="135" text="편드명 :" measuredWidth="49" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="51" y="200" text="펀드 설명 :" measuredWidth="65" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="33" x="126" y="201" width="616" height="89" text="&#xA;[현대인베스트먼트자산운용 준법감시인 확인필 제101009호(2017.04.05~2018.04.04)] 미래 주가상승 가능성이 높은 우량 저가주(Low Price Stock)를 엄선 투자하여 시장대비 장기적인 추가수익을 추구합니다." measuredWidth="616" measuredHeight="89">
+    <font/>
+    <items x="4" y="4" width="458" height="15" text="현대인베스트먼트자산운용 준법감시인 확인필 제101009호(2017.04.05~2018.04.04)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="475" y="167" text="펀드유형:" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="67" y="396" text="설정일 :" measuredWidth="49" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="67" y="434" text="설정액 :" measuredWidth="49" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="67" y="468" text="기준가 :" measuredWidth="49" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="67" y="506" text="운용역 :" measuredWidth="49" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="39" x="55" y="541" text="벤치마크 :" measuredWidth="61" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="315" y="397" text="판매여부:" measuredWidth="57" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="55" y="617" text="수탁회사 :" measuredWidth="61" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="406" y="617" text="펀드사무관리:" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="55" y="655" text="판매회사 :" measuredWidth="61" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="44" x="126" y="654" width="617" height="89" text="한국투자증권, 하이투자증권, 하나금융투자, 이베스트투자증권, 유안타증권, 신한은행, 신한금융투자, 신영증권, 삼성증권, 미래에셋대우, DB금융투자, 대신증권, SK증권, NH투자증권, NH농협은행, 현대해상화재보험, KB증권(구 현대증권)" measuredWidth="617" measuredHeight="89">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="35" y="757" text="매입관련사항:" measuredWidth="81" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="46" x="126" y="756" width="619" height="49" text="15시 30분이전 : 제2영업일 기준가로 설정 (단, 15시 30분경과 후 : 제3영업일 기준가로 설정)" measuredWidth="619" measuredHeight="49">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="35" y="819" text="환매관련사항:" measuredWidth="81" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="48" x="126" y="818" width="617" height="57" text="&#x9;15시 30분이전 : 제2영업일 기준가로 제4영업일 지급 (단, 15시 30분경과 후 : 제3영업일 기준가로 제4영업일 지급)" measuredWidth="617" measuredHeight="57">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="51" x="375" y="394" width="81" height="25" text="(o) 판매중" measuredWidth="81" measuredHeight="25" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="81" height="22" text="(o) 판매중"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="52" x="126" y="434" width="619" text="16,578.87(백만원)" measuredWidth="619" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="53" x="126" y="471" width="619" text="947.85 (2018-04-05 기준)" measuredWidth="619" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="54" x="128" y="395" width="113" text="2013-04-05" measuredWidth="113" measuredHeight="23"/>
+  <widgets xsi:type="model:Combo" id="55" x="533" y="168" width="208" text="주식형" measuredWidth="208" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="55" y="170" text="펀드구분 :" measuredWidth="61" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="57" x="126" y="169" width="282" text="경영투자형 사모 집합투자기구" measuredWidth="282" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="58" x="443" y="394" width="57" text="() 마감" measuredWidth="57" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="57" height="22" text="() 마감"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="59" x="126" y="506" width="619" text="추연식 / 박진영" measuredWidth="619" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="60" x="126" y="540" width="619" height="65" text="중형주 60% + 소형주 20% + KOSDAQ100 15% + Call 5%" measuredWidth="619" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="61" x="126" y="618" width="257" text="하나은행" measuredWidth="257" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="62" x="486" y="615" width="257" text="신한아이타스" measuredWidth="257" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="63" x="51" y="298" text="펀드 특징 :" measuredWidth="65" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="64" x="126" y="299" width="616" height="86" text="- 한국 거래소 상장종목 중 절대가격 25,000원 미만 종목 내에서 미래 성장가능성이 높은 종목에 투자합니다. &#xD;&#xA;- 가치주/성장주, 대형주/중소형주 구분없는 포괄적 투자 유니버스를 구성합니다." measuredWidth="616" measuredHeight="86">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="65" x="315" y="891" width="68" text="저장" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="66" x="398" y="891" width="68" text="닫기" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="16" y="16" width="789" text=" 신규 펀드등록 및 수정" measuredWidth="789" measuredHeight="36" icon="loading (medium)">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="72" x="124" y="107" width="91" text="9999999" measuredWidth="91" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="53" y="106" text="편드코드 :" measuredWidth="61" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

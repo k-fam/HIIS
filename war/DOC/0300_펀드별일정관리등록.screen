@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="69" x="28" y="8" width="1149" height="697" measuredWidth="1149" measuredHeight="697"/>
+  <widgets xsi:type="model:Panel" id="83" x="41" y="72" width="1104" height="44" measuredWidth="1104" measuredHeight="44" background="#ccc" border="dashed-rounded"/>
+  <widgets xsi:type="model:TextField" id="2" x="135" y="84" width="394" text="현대인베스트먼트 로우 프라이스 증권자투자신탁1호(주식)C3 " measuredWidth="394" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="66" y="85" text="펀드 찾기 :" measuredWidth="65" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="56" y="16" width="789" text="펀드별 일정관리" measuredWidth="789" measuredHeight="36" icon="loading (medium)">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="72" x="828" y="82" text="{find} 조회" measuredWidth="64" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="78" x="41" y="157" width="1104" height="532" text="(w:40).No, (w:40).선택, (w:120).업무구분, (w:200).문서구분, (w:60).결재\r구분, (w:60).완료\r여부, (w:100).완료일, (w:60).결재\r상태, (w:60).대상\r구분, (w:100).완료예정일, (w:120).담당자, (w:200).기타사항&#xD;&#xA;1, {unchecked}, 설정/설립, 증권신고서, 필수, 완료, 2018-05-04, [완료], {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;2, {unchecked}, 설정/설립, 등록신청서, 필수, 진행중, , [진행중], {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;3, {unchecked}, 설정/설립, 집합투자규약, 선택, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;4, {unchecked}, 설정/설립, 정관, 제외, 제외, , 비대상, {unchecked} 대상, &#xD;&#xA;5, {unchecked}, 설정/설립, 투자설명서, 필수, 대기, , 미등록, {unchecked} 대상, &#xD;&#xA;6, {unchecked}, 설정/설립, (간이)투자설명서, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;7, {unchecked}, 설정/설립, 등기부등본, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;8, {unchecked}, 설정/설립, 출자금 납입증명서류, 선택, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 장영실 대리 {find}, &#xD;&#xA;9, {unchecked}, 설정/설립, 평가방법서, 제외, 제외, , 제외, {unchecked} 대상&#xD;&#xA;10, {unchecked}, 설정/설립, 위험관리방법서, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find},  &#xD;&#xA;11, {unchecked}, 설정/설립, 등록관련통지서, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;12, {unchecked}, 설정/설립, 수익자총회, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;13, {unchecked}, 설정/설립, 투자설명서, 필수, 대기, , 미등록, {checked} 대상, 2018-05-04 {calendar2}, 홍길동 대리 {find}, &#xD;&#xA;" measuredWidth="1104" measuredHeight="532" selection="4" verticalScrollbar="true" textAlignment="Center" alternative="#eee">
+    <font bold="false"/>
+    <items x="637" y="39" width="24" height="15" text="완료"/>
+    <items x="631" y="61" width="36" height="15" text="진행중"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="79" x="863" y="129" text="일정관리 생성" measuredWidth="96" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="85" x="539" y="84" text="업무구분 : " measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="86" x="602" y="85" width="208" text="설정/설립" measuredWidth="208" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="88" x="1049" y="129" text="변경내용 저장" measuredWidth="96" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="89" x="962" y="129" text="선택행 삭제" measuredWidth="84" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

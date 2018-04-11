@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" id="21" x="244" y="88" width="1300" height="697" text="Main 화면" measuredWidth="1300" measuredHeight="697" selection="0">
+    <items x="10" y="0" width="76" height="27" text="Main 화면"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="18" x="32" y="31" width="1512" height="44" measuredWidth="1512" measuredHeight="44"/>
+  <widgets xsi:type="model:Table" id="4" x="254" y="164" width="873" height="609" text="일요일, 월요일, 화요일, 수요일, 목요일, 금요일, 토요일&#xD;&#xA;(align:right).1\r\r\r\r\r\r, (align:right).2\r\r\r\r\r\r, (align:right).3\r\r\r\r\r\r, (align:right).4\r\r\r\r\r\r, (align:right).5\r\r\r\r\r\r, (align:right).6\r\r\r\r\r\r, (align:right).7\r\r\r\r\r\r&#xD;&#xA;(align:right).8\r\r\r\r\r\r, (align:right).9\r\r\r\r\r\r, (align:right).10\r\r\r\r\r\r, (align:right).11\r\r\r\r\r\r, (align:right).12\r\r\r\r\r\r, (align:right).13\r\r\r\r\r\r, (align:right).14\r\r\r\r\r\r&#xD;&#xA;(align:right).15\r\r\r\r\r\r, (align:right).16\r\r\r\r\r\r, (align:right).17\r\r\r\r\r\r, (align:right).18\r\r\r\r\r\r, (align:right).19\r\r\r\r\r\r, (align:right).20\r\r\r\r\r\r, (align:right).21\r\r\r\r\r\r&#xD;&#xA;(align:right).22\r\r\r\r\r\r, (align:right).23\r\r\r\r\r\r, (align:right).24\r\r\r\r\r\r, (align:right).25\r\r\r\r\r\r, (align:right).26\r\r\r\r\r\r, (align:right).27\r\r\r\r\r\r, (align:right).28\r\r\r\r\r\r&#xD;&#xA;(align:right).29\r\r\r\r\r\r, (align:right).30\r\r\r\r\r\r, (align:right).1\r\r\r\r\r\r, (align:right).2\r\r\r\r\r\r, (align:right).3\r\r\r\r\r\r, (align:right).4\r\r\r\r\r\r, (align:right).5\r\r\r\r\r\r&#xD;&#xA;" measuredWidth="873" measuredHeight="609" rowHeight="35" horizontalLines="true" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="5" x="32" y="88" width="208" height="697" text="전체메뉴 트리&#xA;-Main 화면&#xA;-업무메뉴&#xA;--상품기획&#xA;---집합투자기구&#xA;----공모 집합투자기구&#xA;-----등록&#xA;-----변경&#xA;----전문투자형 사모 집합투자기구&#xA;-----보고&#xA;-----변경&#xA;----경영참여형 사모 집합투자기구&#xA;-----등기&#xA;-----공증&#xA;-----보고&#xA;---투자일임계약&#xA;---업무위탁계약&#xA;----집합투자업자&#xA;----신탁업자&#xA;----판매업자&#xA;----일반사무관리업자&#xA;----펀드평가업자&#xA;----전담중개업자&#xA;----기타(위탁계약서)&#xA;--상품운용&#xA;---주식상품운용&#xA;----의사결정기구&#xA;----Research&#xA;----Portfolio&#xA;----공모청약&#xA;----중계업자&#xA;----장외거래&#xA;----자전거래&#xA;----외국환&#xA;----비예탁&#xA;----의결권" measuredWidth="208" measuredHeight="697">
+    <items x="0" y="5" width="208" height="21" text="전체메뉴 트리"/>
+    <items x="0" y="26" width="208" height="21" text="-Main 화면"/>
+    <items x="0" y="47" width="208" height="21" text="-업무메뉴"/>
+    <items x="0" y="68" width="208" height="21" text="--상품기획"/>
+    <items x="0" y="89" width="208" height="21" text="---집합투자기구"/>
+    <items x="0" y="110" width="208" height="21" text="----공모 집합투자기구"/>
+    <items x="0" y="131" width="208" height="21" text="-----등록"/>
+    <items x="0" y="152" width="208" height="21" text="-----변경"/>
+    <items x="0" y="173" width="208" height="21" text="----전문투자형 사모 집합투자기구"/>
+    <items x="0" y="194" width="208" height="21" text="-----보고"/>
+    <items x="0" y="215" width="208" height="21" text="-----변경"/>
+    <items x="0" y="236" width="208" height="21" text="----경영참여형 사모 집합투자기구"/>
+    <items x="0" y="257" width="208" height="21" text="-----등기"/>
+    <items x="0" y="278" width="208" height="21" text="-----공증"/>
+    <items x="0" y="299" width="208" height="21" text="-----보고"/>
+    <items x="0" y="320" width="208" height="21" text="---투자일임계약"/>
+    <items x="0" y="341" width="208" height="21" text="---업무위탁계약"/>
+    <items x="0" y="362" width="208" height="21" text="----집합투자업자"/>
+    <items x="0" y="383" width="208" height="21" text="----신탁업자"/>
+    <items x="0" y="404" width="208" height="21" text="----판매업자"/>
+    <items x="0" y="425" width="208" height="21" text="----일반사무관리업자"/>
+    <items x="0" y="446" width="208" height="21" text="----펀드평가업자"/>
+    <items x="0" y="467" width="208" height="21" text="----전담중개업자"/>
+    <items x="0" y="488" width="208" height="21" text="----기타(위탁계약서)"/>
+    <items x="0" y="509" width="208" height="21" text="--상품운용"/>
+    <items x="0" y="530" width="208" height="21" text="---주식상품운용"/>
+    <items x="0" y="551" width="208" height="21" text="----의사결정기구"/>
+    <items x="0" y="572" width="208" height="21" text="----Research"/>
+    <items x="0" y="593" width="208" height="21" text="----Portfolio"/>
+    <items x="0" y="614" width="208" height="21" text="----공모청약"/>
+    <items x="0" y="635" width="208" height="21" text="----중계업자"/>
+    <items x="0" y="656" width="208" height="21" text="----장외거래"/>
+    <items x="0" y="677" width="208" height="21" text="----자전거래"/>
+    <items x="0" y="698" width="208" height="21" text="----외국환"/>
+    <items x="0" y="719" width="208" height="21" text="----비예탁"/>
+    <items x="0" y="740" width="208" height="21" text="----의결권"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="6" x="1150" y="379" width="376" height="178" text="결재상태, 등록일, 제목, 결재자, 결재일&#xD;&#xA;결재요청, 2018-05-10, 법인MMF2호 운용보고서_2018.02.14 ~ 2018.03.13, 과장 홍길동, 2018-05-10" measuredWidth="376" measuredHeight="178" textAlignment="Center" alternative="#eee" verticalLines="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="7" x="1150" y="613" width="376" height="160" text="To Do List&#xD;&#xA;현대인베스트먼트 법인2호 운용보고서 결재확인, {find}" measuredWidth="376" measuredHeight="160" textAlignment="Center" alternative="#eee" verticalLines="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="8" x="1150" y="164" width="376" height="168" text="결재상태, 등록일, 제목, 결재자, 결재일&#xD;&#xA;결재요청, 2018-05-10, 법인MMF2호 운용보고서_2018.02.14 ~ 2018.03.13, 과장 홍길동, 2018-05-10" measuredWidth="376" measuredHeight="168" textAlignment="Center" alternative="#eee" verticalLines="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="10" x="48" y="42" measuredWidth="249" measuredHeight="24" src="현대인베스트먼트로고.gif"/>
+  <widgets xsi:type="model:Label" id="11" x="1150" y="136" text="{attachment} 미결함" measuredWidth="62" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="1150" y="590" text="{attachment} To Do List" measuredWidth="81" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="13" x="256" y="132" width="64" text="2018" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="14" x="328" y="132" width="64" text="04월" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="1154" y="354" text="{attachment} 결재요청함" measuredWidth="86" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="968" y="40" width="565" text="{bar-chart} 홍길동 과장님 반갑습니다.             [{edit} 나의정보 보기]   [{help}도움말]   [{close} Logout]" measuredWidth="565" measuredHeight="28" textAlignment="Right">
+    <font size="15px"/>
+    <items x="284" y="3" width="116" height="20" text="  나의정보 보기"/>
+    <items x="415" y="3" width="61" height="20" text=" 도움말"/>
+    <items x="491" y="3" width="69" height="20" text="  Logout"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="399" y="131" text="Today" measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="559" y="42" width="130" text="펀드바로가기?" measuredWidth="130" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

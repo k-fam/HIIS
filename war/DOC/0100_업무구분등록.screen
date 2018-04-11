@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="69" x="8" y="56" width="697" height="361" measuredWidth="697" measuredHeight="361"/>
+  <widgets xsi:type="model:Button" id="65" x="464" y="71" text="신규등록" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="66" x="622" y="71" width="68" text="저장" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="8" y="10" width="789" text="업무구분 등록" measuredWidth="789" measuredHeight="36" icon="loading (medium)">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="74" x="18" y="103" width="672" height="297" text="(w:40).No, (w:40).선택, (w:80).구분코드, (w:200).업무구분명, (w:60).정렬순서, 비고 &#xD;&#xA;1, {unchecked}, (align:center).1000, 주식형 펀드 운용, (align:center).01, &#xD;&#xA;2, {unchecked}, (align:center).2000, 채권형 펀드운용, (align:center).02, &#xD;&#xA;3, {unchecked}, (align:center).3000, 대체상품 운용, (align:center).03&#xD;&#xA;4, {unchecked}, (align:center).4000, 투자일임계약, (align:center).04, &#xD;&#xA;5, {unchecked}, (align:center).4500, 업무위탁계약, (align:center).05, &#xD;&#xA;6, {unchecked}, (align:center).5000, 마케팅, (align:center).06&#xD;&#xA;7, {unchecked}, (align:center).6000, 컴플라이언스, (align:center).07, &#xD;&#xA;8, {unchecked}, (align:center).7000, 평가회계, (align:center).08, &#xD;&#xA;9, {unchecked}, (align:center).8000, 위험관리, (align:center).09, &#xD;&#xA;10, {unchecked}, (align:center).9000, 감독기관, (align:center).10, &#xD;&#xA;11, {unchecked}, (align:center).9990, 기타업무, (align:center).11" measuredWidth="672" measuredHeight="297" selection="4" verticalScrollbar="true" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="75" x="544" y="71" text="선택삭제" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="77" x="8" y="432" text="삭제 확인&#xA;삭제된 자료는 이후 복원이 불가능합니다.\r삭제 하시겠습니까? &#xA;OK,Cancel" measuredWidth="311" measuredHeight="132" icon="warning (large)">
+    <items x="121" y="93" width="80" height="24" text="OK"/>
+    <items x="216" y="93" width="80" height="24" text="Cancel"/>
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

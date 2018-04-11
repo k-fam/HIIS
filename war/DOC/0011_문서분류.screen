@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Tree" id="1" width="569" height="977" text="문서분류&#xA;-상품기획&#xA;--집합투자기구&#xA;---공모 집합투자기구&#xA;----등록&#xA;----변경&#xA;---전문투자형 사모 집합투자기구&#xA;----보고&#xA;----변경&#xA;---경영참여형 사모 집합투자기구&#xA;----등기&#xA;----공증&#xA;----보고&#xA;--투자일임계약&#xA;--업무위탁계약&#xA;---집합투자업자&#xA;---신탁업자&#xA;---판매업자&#xA;---일반사무관리업자&#xA;---펀드평가업자&#xA;---전담중개업자&#xA;---기타(위탁계약서)&#xA;-상품운용&#xA;--주식상품운용&#xA;---의사결정기구&#xA;---Research&#xA;---Portfolio&#xA;---공모청약&#xA;---중계업자&#xA;---장외거래&#xA;---자전거래&#xA;---외국환&#xA;---비예탁&#xA;---의결권&#xA;--채권상품운용&#xA;---의사결정기구&#xA;---Research&#xA;---Portfolio&#xA;---공모청약&#xA;---중계업자&#xA;---장외거래&#xA;---자전거래&#xA;---외국환&#xA;---비예탁&#xA;--ⓑ&#xA;- ..." measuredWidth="569" measuredHeight="977">
+    <items x="0" y="5" width="569" height="21" text="문서분류"/>
+    <items x="0" y="26" width="569" height="21" text="-상품기획"/>
+    <items x="0" y="47" width="569" height="21" text="--집합투자기구"/>
+    <items x="0" y="68" width="569" height="21" text="---공모 집합투자기구"/>
+    <items x="0" y="89" width="569" height="21" text="----등록"/>
+    <items x="0" y="110" width="569" height="21" text="----변경"/>
+    <items x="0" y="131" width="569" height="21" text="---전문투자형 사모 집합투자기구"/>
+    <items x="0" y="152" width="569" height="21" text="----보고"/>
+    <items x="0" y="173" width="569" height="21" text="----변경"/>
+    <items x="0" y="194" width="569" height="21" text="---경영참여형 사모 집합투자기구"/>
+    <items x="0" y="215" width="569" height="21" text="----등기"/>
+    <items x="0" y="236" width="569" height="21" text="----공증"/>
+    <items x="0" y="257" width="569" height="21" text="----보고"/>
+    <items x="0" y="278" width="569" height="21" text="--투자일임계약"/>
+    <items x="0" y="299" width="569" height="21" text="--업무위탁계약"/>
+    <items x="0" y="320" width="569" height="21" text="---집합투자업자"/>
+    <items x="0" y="341" width="569" height="21" text="---신탁업자"/>
+    <items x="0" y="362" width="569" height="21" text="---판매업자"/>
+    <items x="0" y="383" width="569" height="21" text="---일반사무관리업자"/>
+    <items x="0" y="404" width="569" height="21" text="---펀드평가업자"/>
+    <items x="0" y="425" width="569" height="21" text="---전담중개업자"/>
+    <items x="0" y="446" width="569" height="21" text="---기타(위탁계약서)"/>
+    <items x="0" y="467" width="569" height="21" text="-상품운용"/>
+    <items x="0" y="488" width="569" height="21" text="--주식상품운용"/>
+    <items x="0" y="509" width="569" height="21" text="---의사결정기구"/>
+    <items x="0" y="530" width="569" height="21" text="---Research"/>
+    <items x="0" y="551" width="569" height="21" text="---Portfolio"/>
+    <items x="0" y="572" width="569" height="21" text="---공모청약"/>
+    <items x="0" y="593" width="569" height="21" text="---중계업자"/>
+    <items x="0" y="614" width="569" height="21" text="---장외거래"/>
+    <items x="0" y="635" width="569" height="21" text="---자전거래"/>
+    <items x="0" y="656" width="569" height="21" text="---외국환"/>
+    <items x="0" y="677" width="569" height="21" text="---비예탁"/>
+    <items x="0" y="698" width="569" height="21" text="---의결권"/>
+    <items x="0" y="719" width="569" height="21" text="--채권상품운용"/>
+    <items x="0" y="740" width="569" height="21" text="---의사결정기구"/>
+    <items x="0" y="761" width="569" height="21" text="---Research"/>
+    <items x="0" y="782" width="569" height="21" text="---Portfolio"/>
+    <items x="0" y="803" width="569" height="21" text="---공모청약"/>
+    <items x="0" y="824" width="569" height="21" text="---중계업자"/>
+    <items x="0" y="845" width="569" height="21" text="---장외거래"/>
+    <items x="0" y="866" width="569" height="21" text="---자전거래"/>
+    <items x="0" y="887" width="569" height="21" text="---외국환"/>
+    <items x="0" y="908" width="569" height="21" text="---비예탁"/>
+    <items x="0" y="929" width="569" height="21" text="--ⓑ"/>
+    <items x="0" y="950" width="569" height="21" text="- ..."/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="3" x="256" y="8" width="337" height="169" text="업무분류가 아닌 문서분류임.&#xD;&#xA;&#xD;&#xA;1. 하나의 펀드 또는 종목으로 묶을 수 있는 문서는 모두 묶는다. &#xD;&#xA;2. 문서가 여러개의 펀드 또는 종목으로 묶일 수 있는 것들에 대한 확인 필요. &#xD;&#xA;3. 펀드 또는 종목과 무관한 문서에 대한 확인 필요. &#xD;&#xA;" measuredWidth="337" measuredHeight="169" textAlignment="Left">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="4" x="616" width="569" height="977" text="문서분류&#xA;-ⓑ&#xA;--대체상품운용&#xA;---의사결정기구&#xA;---Research&#xA;---투자집행&#xA;---자금관리&#xA;---사후관리&#xA;---장외거래&#xA;---자전거래&#xA;---외국환&#xA;---비예탁&#xA;--환매/해지&#xA;---추가발행&#xA;---환매&#xA;---해지&#xA;---합병&#xA;-평가회계&#xA;--회계&#xA;--결산&#xA;--기준가 정정 및 오류&#xA;-마케팅&#xA;--영업&#xA;--수익자총회&#xA;--광고&#xA;-컴플라이언스&#xA;--검사&#xA;--내부감사&#xA;--분쟁&#xA;-위헙관리&#xA;--성과평가&#xA;-감독기관&#xA;--금융감독원&#xA;--금융투자협회&#xA;" measuredWidth="569" measuredHeight="977">
+    <items x="0" y="5" width="569" height="21" text="문서분류"/>
+    <items x="0" y="26" width="569" height="21" text="-ⓑ"/>
+    <items x="0" y="47" width="569" height="21" text="--대체상품운용"/>
+    <items x="0" y="68" width="569" height="21" text="---의사결정기구"/>
+    <items x="0" y="89" width="569" height="21" text="---Research"/>
+    <items x="0" y="110" width="569" height="21" text="---투자집행"/>
+    <items x="0" y="131" width="569" height="21" text="---자금관리"/>
+    <items x="0" y="152" width="569" height="21" text="---사후관리"/>
+    <items x="0" y="173" width="569" height="21" text="---장외거래"/>
+    <items x="0" y="194" width="569" height="21" text="---자전거래"/>
+    <items x="0" y="215" width="569" height="21" text="---외국환"/>
+    <items x="0" y="236" width="569" height="21" text="---비예탁"/>
+    <items x="0" y="257" width="569" height="21" text="--환매/해지"/>
+    <items x="0" y="278" width="569" height="21" text="---추가발행"/>
+    <items x="0" y="299" width="569" height="21" text="---환매"/>
+    <items x="0" y="320" width="569" height="21" text="---해지"/>
+    <items x="0" y="341" width="569" height="21" text="---합병"/>
+    <items x="0" y="362" width="569" height="21" text="-평가회계"/>
+    <items x="0" y="383" width="569" height="21" text="--회계"/>
+    <items x="0" y="404" width="569" height="21" text="--결산"/>
+    <items x="0" y="425" width="569" height="21" text="--기준가 정정 및 오류"/>
+    <items x="0" y="446" width="569" height="21" text="-마케팅"/>
+    <items x="0" y="467" width="569" height="21" text="--영업"/>
+    <items x="0" y="488" width="569" height="21" text="--수익자총회"/>
+    <items x="0" y="509" width="569" height="21" text="--광고"/>
+    <items x="0" y="530" width="569" height="21" text="-컴플라이언스"/>
+    <items x="0" y="551" width="569" height="21" text="--검사"/>
+    <items x="0" y="572" width="569" height="21" text="--내부감사"/>
+    <items x="0" y="593" width="569" height="21" text="--분쟁"/>
+    <items x="0" y="614" width="569" height="21" text="-위헙관리"/>
+    <items x="0" y="635" width="569" height="21" text="--성과평가"/>
+    <items x="0" y="656" width="569" height="21" text="-감독기관"/>
+    <items x="0" y="677" width="569" height="21" text="--금융감독원"/>
+    <items x="0" y="698" width="569" height="21" text="--금융투자협회"/>
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

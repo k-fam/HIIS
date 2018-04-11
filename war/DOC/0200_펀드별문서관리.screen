@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="69" x="-2" y="59" width="1576" height="822" measuredWidth="1576" measuredHeight="822"/>
+  <widgets xsi:type="model:Panel" id="83" x="15" y="80" width="1544" height="44" measuredWidth="1544" measuredHeight="44" background="#ccc" border="dashed-rounded"/>
+  <widgets xsi:type="model:TextField" id="2" x="109" y="92" width="519" text="현대인베스트먼트 로우 프라이스 증권자투자신탁1호(주식)C3 " measuredWidth="519" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="40" y="93" text="펀드 찾기 :" measuredWidth="65" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" y="24" width="789" text="펀드별 문서검색" measuredWidth="789" measuredHeight="36" icon="loading (medium)">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="72" x="635" y="90" text="{find} 찾기" measuredWidth="64" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="77" x="16" y="138" width="1543" height="719" text="분류별 조회, 전체보기, 펀드정보" measuredWidth="1543" measuredHeight="719" selection="0">
+    <items x="10" y="0" width="85" height="27" text="분류별 조회"/>
+    <items x="95" y="0" width="69" height="27" text="전체보기"/>
+    <items x="164" y="0" width="69" height="27" text="펀드정보"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="78" x="29" y="246" width="672" height="589" text="(w:40).No, (w:60).선택, (w:150).업무구분, (w:300).문서구분, (w:60).등록, (w:60).진행&#xD;&#xA;1, {unchecked}, 상품기획, 투자제안서, 1, 0&#xD;&#xA;2, {unchecked}, 상품기획, 투자검토 보고서, 1, 0&#xD;&#xA;3, {unchecked}, 상품기획, 마케팅전략 및 수익성 검토 보고서, 1, 0&#xD;&#xA;4, {unchecked}, 상품기획, 오퍼레이션 검토 보고서, 1, 0&#xD;&#xA;5, {unchecked}, 상품기획, 컴플라이언스 검토 보고서, 1, 0&#xD;&#xA;6, {unchecked}, 상품기획, 위험검토 보고서, 1, 0&#xD;&#xA;7, {unchecked}, 설정/설립, 증권신고서, 1, 0&#xD;&#xA;8, {unchecked}, 설정/설립, 등록신청서, 1, 0&#xD;&#xA;9, {unchecked}, 설정/설립, 집합투자규약, 1, 0&#xD;&#xA;10, {unchecked}, 설정/설립, 정관, 2, 0&#xD;&#xA;11, {unchecked}, 설정/설립, 투자설명서, 1, 0&#xD;&#xA;12, {unchecked}, 설정/설립, (간이)투자설명서, 1, 0&#xD;&#xA;13, {unchecked}, 설정/설립, 등기부등본, 1, 0&#xD;&#xA;14, {unchecked}, 설정/설립, 출자금 납입증명서류, 6, 0&#xD;&#xA;15, {unchecked}, 설정/설립, 평가방법서, 1, 0&#xD;&#xA;16, {unchecked}, 설정/설립, 위험관리방법서, 2, 0&#xD;&#xA;17, {unchecked}, 설정/설립, 등록관련통지서, 3, 0&#xD;&#xA;18, {unchecked}, 설정/설립, 수익자총회, 8, 0&#xD;&#xA;19, {unchecked}, 설정/설립, 투자설명서, 12, 0&#xD;&#xA;20, {unchecked}, 운용-의사결정, 자산운용위워회 회의록, 0, 0&#xD;&#xA;21, {unchecked}, 운용-의사결정, 투자심의위원회 회의록, 0, 0&#xD;&#xA;22, {unchecked}, 운용-의사결정, 의결권행사위원회 회의록, 0, 0&#xD;&#xA;23, {unchecked}, 운용-의사결정, 기타 문서, 0, 0&#xD;&#xA;24, {unchecked}, 운용-Research, 시장분석 보고서, 0, 0&#xD;&#xA;25, {unchecked}, 운용-Research, 업종분석 보고서, 0, 1&#xD;&#xA;26, {unchecked}, 운용-Research, 기업분석보고서, 0, 0&#xD;&#xA;27, {unchecked}, 운용-Research, 자문보고서, 0, 0&#xD;&#xA;28, {unchecked}, 운용-Research,기타, 0, 0&#xD;&#xA;29, {unchecked}, 운용-Portpolio, Universe, 0, 0&#xD;&#xA;30, {unchecked}, 운용-공모청약, 수요예측 참여신청서, 0, 0&#xD;&#xA;31, {unchecked}, 운용-중개업자, 매매결과보고서, 0, 0&#xD;&#xA;32, {unchecked}, 운용-장외거래, 장외거래계약서, 0, 0&#xD;&#xA;33, {unchecked}, 운용-장외거래, 장외파생상품 계약서, 0, 0&#xD;&#xA;34, {unchecked}, 운용-비예탁, 운영지시서, 0, 0&#xD;&#xA;" measuredWidth="672" measuredHeight="589" selection="4" verticalScrollbar="true" textAlignment="Center" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="81" x="712" y="246" width="831" height="589" text="(w:40).No, (w:300).문서명, (w:80).등록일, (w:80).등록자, (w:60).상태, (w:80).결재자, (w:80).결재일, 비고&#xD;&#xA;1, 2018_펀드명_오퍼레이션 검토보고서.docx, 2018-05-03, 사원 홍길동, 결재완료, 차장 박문수, 2018-05-07&#xD;&#xA;2, 2018_펀드명_오퍼레이션 검토보고서.docx, 2018-04-22, 사원 홍길동, 반려, 차장 박문수, 2018-04-23&#xD;&#xA;" measuredWidth="831" measuredHeight="589" textAlignment="Center" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="82" x="1471" y="217" text="문서 등록" measuredWidth="72" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="73" x="30" y="190" width="385" text="(w:80).상품기획, (w:80).설정/설립, (w:80).운용, (w:80).환매/해지, (w:80).기타&#xD;&#xA;17, 22, 3, 2, 0" measuredWidth="385" measuredHeight="46" textAlignment="Center" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="79" x="602" y="214" text="문서구분 추가" measuredWidth="96" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="714" y="218" text="{attachment} 오퍼레이션 검토보고서" measuredWidth="150" measuredHeight="24">
+    <font bold="false" underline="true"/>
+  </widgets>
+  <hRuler>
+    <guides position="-116"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

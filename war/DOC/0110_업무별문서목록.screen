@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" theme="clean">
+  <widgets xsi:type="model:Panel" id="69" x="8" y="45" width="1209" height="668" measuredWidth="1209" measuredHeight="668"/>
+  <widgets xsi:type="model:Panel" id="81" x="26" y="67" width="1168" height="44" measuredWidth="1168" measuredHeight="44" background="#ccc" border="dashed-rounded"/>
+  <widgets xsi:type="model:Button" id="65" x="347" y="134" text="신규등록" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="66" x="505" y="134" width="68" text="저장" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="8" y="10" width="789" text="업무별 문서목록" measuredWidth="789" measuredHeight="36" icon="loading (medium)">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="74" x="27" y="166" width="545" height="529" text="(w:40).No, (w:40).선택, (w:80).상세업무코드, (w:150).상세업무명, (w:60).정렬순서, (w:60).사용여부, 비고 &#xD;&#xA;1, {unchecked}, 010, 상품기획, 10, 사용 {desc}&#xD;&#xA;2, {unchecked}, 020, 상품등록, 11, 사용 {desc} &#xD;&#xA;3, {unchecked}, 030, 상품변경, 12, 사용 {desc}&#xD;&#xA;4, {unchecked}, 040, 의사결정, 20, 사용 {desc}&#xD;&#xA;5, {unchecked}, 050, Research, 21, 사용 {desc}&#xD;&#xA;6, {unchecked}, 060, Portpolio, 22, 사용 {desc}&#xD;&#xA;7, {unchecked}, 070, 공모청약, 23, 사용 {desc}&#xD;&#xA;8, {unchecked}, 080, 중개업자, 24, 사용 {desc}&#xD;&#xA;9, {unchecked}, 090, 장외거래, 30, 사용 {desc}&#xD;&#xA;10, {unchecked}, 100, 추가발행, 40, 사용안함 {desc}&#xD;&#xA;11, {unchecked}, 110, 환매, 42, 사용 {desc}&#xD;&#xA;12, {unchecked}, 120, 해지, 44, 사용 {desc}&#xD;&#xA;13, {unchecked}, 130, 합병, 50, 사용 {desc}" measuredWidth="545" measuredHeight="529" selection="2" verticalScrollbar="true" textAlignment="Center" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="75" x="427" y="134" text="선택삭제" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="78" x="98" y="78" width="199" text="주식형 펀드운영" measuredWidth="199" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="36" y="78" text="업무구분 :" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="82" x="306" y="77" width="68" text="조회" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="83" x="585" y="134" height="577" measuredWidth="6" measuredHeight="577"/>
+  <widgets xsi:type="model:Table" id="84" x="603" y="166" width="591" height="529" text="(w:40).No, (w:40).선택, (w:80).문서구분코드, (w:150).문서구분, (w:60).결재구분, (w:60).정렬순서, (w:60).사용여부, 상세설명 &#xD;&#xA;1, {unchecked}, 010, 증권신고서, 필수{desc}, 10, 사용 {desc}&#xD;&#xA;2, {unchecked}, 020, 등록신청서, 필수{desc}, 11, 사용 {desc} &#xD;&#xA;3, {unchecked}, 030, 직접투자규약, 필수{desc}, 12, 사용 {desc}&#xD;&#xA;4, {unchecked}, 040, 정관, 필수{desc}, 15, 사용 {desc}&#xD;&#xA;5, {unchecked}, 050, 투자설명서, 선택{desc}, 16, 사용 {desc}&#xD;&#xA;6, {unchecked}, 060, (간이)투자설명서, 필수{desc}, 18, 사용 {desc}&#xD;&#xA;7, {unchecked}, 070, 등기부등본, 제외{desc}, 20, 사용 {desc}&#xD;&#xA;8, {unchecked}, 080, 출자금 납입증명 서류, 필수{desc}, 22, 사용 {desc}&#xD;&#xA;9, {unchecked}, 090, 평가방법서, 필수{desc}, 23, 사용 {desc}&#xD;&#xA;10, {unchecked}, 100, 위험관리방법서, 필수{desc}, 24, 사용 {desc}&#xD;&#xA;11, {unchecked}, 110, 위험관리방법 확인서, 필수{desc}, 25, 사용 {desc}&#xD;&#xA;12, {unchecked}, 120, 등록관련 통지서, 필수{desc}, 26, 사용 {desc}&#xD;&#xA;13, {unchecked}, 130, 등록관련 보완 요구서, 필수{desc}, 27, 사용 {desc}&#xD;&#xA;14, {unchecked}, 140, 기타 문서, 제외{desc}, 28, 사용안함 {desc}" measuredWidth="591" measuredHeight="529" selection="4" verticalScrollbar="true" textAlignment="Center" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="85" x="18" y="720" width="607" height="73" text="서버에 저장되는 문서명 양식&#xD;&#xA;양식) SerialNumber(8자리)_문서분류코드(9자리)_문서분류명칭_yyyymmddHHMISS_사용자업로드파일명&#xD;&#xA;   ex) XXXXXXXX_010020040_정관_20180428102355_사용자파일명.docx&#xD;&#xA;  " measuredWidth="607" measuredHeight="73" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="86" x="968" y="135" text="신규등록" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="87" x="1126" y="135" width="68" text="저장" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="88" x="1048" y="135" text="선택삭제" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="89" x="632" y="720" width="501" height="73" text="일정은 별도로 관리한다. &#xD;&#xA;1. 일정관리 화면에서 펀드를 선택하고 상세업무를 선택한다. &#xD;&#xA;2. 대상문서를 선택하고 각 문서별 일정과 담당자를 등록한다. &#xD;&#xA;" measuredWidth="501" measuredHeight="73" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

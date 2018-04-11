@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TextField" id="2" x="248" y="97" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="3" x="280" y="96" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="50" y="97" text="위험관리위원회 회의록 발생건수 : " measuredWidth="193" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="7" x="248" y="136" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="50" y="136" text="성과 보고서 발생건수 : " measuredWidth="133" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="40" y="56" text="2018-04-05 기준 " measuredWidth="104" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="280" y="135" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="248" y="176" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="50" y="176" text="리스크관리 보고서 : " measuredWidth="117" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="280" y="175" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="248" y="214" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="280" y="213" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="50" y="214" text="기타 : " measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="17" x="248" y="253" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="50" y="253" text="GIPS 위원회 회의록 발생건수 : " measuredWidth="174" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="280" y="252" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="248" y="291" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="50" y="291" text="GIPS 인증 위탁 계약서 : " measuredWidth="138" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="280" y="290" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="248" y="333" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="50" y="333" text="GIPS 인증서 발생건수 : " measuredWidth="134" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="280" y="332" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="248" y="371" text="2" measuredWidth="18" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="50" y="371" text="GIPS 기타문서 발생건수 : " measuredWidth="146" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="28" x="280" y="370" width="153" text="전체보기" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
