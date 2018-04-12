@@ -1,6 +1,7 @@
 package myApp.frame;
 
 import com.google.gwt.core.shared.GWT;
+import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.sencha.gxt.core.client.util.Margins;
 import com.sencha.gxt.widget.core.client.ContentPanel;
@@ -15,16 +16,18 @@ import com.sencha.gxt.widget.core.client.container.HBoxLayoutContainer;
 import com.sencha.gxt.widget.core.client.container.VerticalLayoutContainer;
 import com.sencha.gxt.widget.core.client.container.VerticalLayoutContainer.VerticalLayoutData;
 
-public class Main_Window extends BorderLayoutContainer {
+import myApp.frame.ui.img.ResourceIcon;
+
+public class Main_Frame extends BorderLayoutContainer {
 	
 	private PlainTabPanel tabPanel = new PlainTabPanel();	
 	private Main_TreeMenu treeMenu = new Main_TreeMenu(tabPanel); 
 	
-	public Main_Window getMainWindow() {
+	public Main_Frame getMainWindow() {
 		
 		// North Layout setting 
-		BorderLayoutData northLayoutData = new BorderLayoutData(34);
-		northLayoutData.setMargins(new Margins(0,0,3,0));
+		BorderLayoutData northLayoutData = new BorderLayoutData(60);
+		northLayoutData.setMargins(new Margins(0,0,5,0));
 		northLayoutData.setSplit(false);
 		this.setNorthWidget(this.getNorthLayout(), northLayoutData); 
 		
@@ -59,21 +62,30 @@ public class Main_Window extends BorderLayoutContainer {
 				+ " " + LoginUser.getLoginUser().getKorName()+ "님!" ; ; 
 
 		Label label = new Label(headerMessage); 
-		label.getElement().getStyle().setProperty("color", "silver"); // font color 변경
+		label.getElement().getStyle().setProperty("color", "#666666"); // font color 변경
 		label.getElement().getStyle().setProperty("fontWeight", "bold"); // font color 변경
 		label.getElement().getStyle().setProperty("fontSize", "14px"); // font color 변경
-				
+		
 		HBoxLayoutContainer header = new HBoxLayoutContainer();
-		header.add(label, new BoxLayoutData(new Margins(8, 3, 3, 20))); 
+
+		Image image = new Image();
+		image.setResource(ResourceIcon.INSTANCE.getLogo());
+		
+		BoxLayoutData boxLayoutData = new BoxLayoutData(new Margins(0, 0, 0, 0)); 
+		boxLayoutData.setFlex(1);
+		
+		header.add(image, new BoxLayoutData(new Margins(19, 3, 0, 20)));
+		header.add(new Label(), boxLayoutData);
+		header.add(label, new BoxLayoutData(new Margins(19, 5, 0, 20))); 
 		
 		ToolButton question = new ToolButton(ToolButton.QUESTION); 
-		header.add(question, new BoxLayoutData(new Margins(11, 3, 3, 10))); 
+		header.add(question, new BoxLayoutData(new Margins(21, 5, 0, 10))); 
 	
 		ToolButton close = new ToolButton(ToolButton.CLOSE); 
-		header.add(close, new BoxLayoutData(new Margins(11, 3, 3, 5))); 
+		header.add(close, new BoxLayoutData(new Margins(21, 40, 0, 5))); 
 		
 		ContentPanel cp = new ContentPanel();
-		cp.setBodyStyle("backgroundColor:#000033"); // http://www.w3schools.com/colors/colors_names.asp 페이지 참조 
+		cp.setBodyStyle("backgroundColor:#FFFFFF"); // http://www.w3schools.com/colors/colors_names.asp 페이지 참조 
 		
 		cp.add(header);
 		cp.setHeaderVisible(false);

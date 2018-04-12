@@ -1,0 +1,3 @@
+# Module hiis
+# RPC service class, partial path of RPC policy file
+myApp.frame.service.InterfaceServiceBroker, ABB6AA869FD0C668ADE47C1BD99157B4.gwt.rpc

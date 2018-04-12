@@ -15,6 +15,9 @@ public interface ResourceIcon extends ClientBundle {
 
 	public static final ResourceIcon INSTANCE = GWT.create(ResourceIcon.class);
 	  
+	  @Source("files/_Logo.gif")
+	  ImageResource getLogo();
+
 	  @Source("files/gearIcon.png")
 	  ImageResource gearIcon();
 
@@ -41,4 +44,5 @@ public interface ResourceIcon extends ClientBundle {
 
 	  @Source("files/1462692039_stock_person.png")
 	  ImageResource searchImage();
+
 }

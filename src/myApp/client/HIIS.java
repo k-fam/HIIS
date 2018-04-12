@@ -1,13 +1,13 @@
 package myApp.client;
 
 import com.google.gwt.core.client.EntryPoint;
-import myApp.frame.Login;
+import myApp.frame.Main_Login;
 
 public class HIIS implements EntryPoint {
 
 	@Override
 	public void onModuleLoad() {
-		myApp.frame.Login login = new Login();
+		myApp.frame.Main_Login login = new Main_Login();
 		login.open();  
 	}
 }

@@ -1,0 +1,2 @@
+serviceClass: myApp.frame.service.InterfaceServiceBroker
+path: ABB6AA869FD0C668ADE47C1BD99157B4.gwt.rpc
