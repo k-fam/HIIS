@@ -27,7 +27,7 @@ public class Main_Frame extends BorderLayoutContainer {
 		
 		// North Layout setting 
 		BorderLayoutData northLayoutData = new BorderLayoutData(60);
-		northLayoutData.setMargins(new Margins(0,0,5,0));
+		northLayoutData.setMargins(new Margins(0,0,3,0));
 		northLayoutData.setSplit(false);
 		this.setNorthWidget(this.getNorthLayout(), northLayoutData); 
 		
