@@ -96,27 +96,30 @@ public class Main_Frame extends BorderLayoutContainer {
 		
 		AccordionLayoutAppearance accordianLayout = GWT.create(AccordionLayoutAppearance.class); 
 		ContentPanel treeAccordianPanel = new ContentPanel(accordianLayout); 
-		treeAccordianPanel.setHeading("Navigation");			
+		treeAccordianPanel.setHeading("Menu Navigation");	
 		treeAccordianPanel.add(this.treeMenu.getMenuTree()); // tree menu setting 
-		
-		
-		//treeAccordianPanel.setBodyStyle("style='backgroundColor:white; color:red;'");
-		
-		ContentPanel newsAccordianPanel = new ContentPanel(accordianLayout); 
-		newsAccordianPanel.setHeading("News & Board");
-		newsAccordianPanel.add(new Label("공지사항 및 게시판입니다.")); 
-		
-		ContentPanel tempAccordianPanel = new ContentPanel(accordianLayout); 
-		tempAccordianPanel.setHeading("공사 중...");
-		tempAccordianPanel.add(new Label("준비중입니다."));
+
+//		ContentPanel newsAccordianPanel = new ContentPanel(accordianLayout); 
+//		newsAccordianPanel.setHeading("News & Board");
+//		newsAccordianPanel.add(new Label("공지사항 및 게시판입니다.")); 
+//		
+//		ContentPanel tempAccordianPanel = new ContentPanel(accordianLayout); 
+//		tempAccordianPanel.setHeading("공사 중...");
+//		tempAccordianPanel.add(new Label("준비중입니다."));
 		
 		AccordionLayoutContainer accordianContainer = new AccordionLayoutContainer();
 		
 		accordianContainer.setExpandMode(ExpandMode.SINGLE_FILL);
+		accordianContainer.setHideCollapseTool(true); // 감추기 버튼 감추기
+		accordianContainer.setTitleCollapse(false); // 감추기 버튼 작동안하기 
+		
 		accordianContainer.add(treeAccordianPanel);
 		accordianContainer.setActiveWidget(treeAccordianPanel);
-		accordianContainer.add(newsAccordianPanel);
-		accordianContainer.add(tempAccordianPanel);
+		
+		
+		
+//		accordianContainer.add(newsAccordianPanel);
+//		accordianContainer.add(tempAccordianPanel);
 		
 		VerticalLayoutContainer vlc = new VerticalLayoutContainer(); 
 		vlc.add(accordianContainer, new VerticalLayoutData(1, 1, new Margins(3, 0, 0, 0)));
