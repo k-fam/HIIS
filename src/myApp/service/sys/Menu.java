@@ -35,6 +35,9 @@ public class Menu {
 
 		for(AbstractDataModel child : roleObjectList){
 			MenuModel menuModel = (MenuModel)child;
+			
+			System.out.println("child menu is " + menuModel.getMenuName());
+			
 			List<AbstractDataModel> childList = getChildItem(sqlSession, menuModel.getMenuId());  
 			menuModel.setChildList(childList); 	
 		}
