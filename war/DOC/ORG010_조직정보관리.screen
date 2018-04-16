@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="57" x="16" y="296" width="545" height="361" text="신규조직정보 등록" measuredWidth="545" measuredHeight="361"/>
+  <widgets xsi:type="model:Table" id="29" x="16" y="64" width="697" height="161" text="No, 선택, 조직명, 조직코드, 변경일, 정보\r수정, 비고&#xD;&#xA;01, {unchecked}, [+] 현대인베스트먼트자산운용, 0001, 1900-01-01, {edit}&#xD;&#xA;02, {unchecked}, [+]   영업본부, 0200, 2004-03-07, {edit}, &#xD;&#xA;03, {unchecked}, [+]       국내영업팀, 0200, 2004-03-07, {edit}, &#xD;&#xA;04, {unchecked}, [+]   경영지원본부, 0400, 2007-02-02, {edit}, " measuredWidth="697" measuredHeight="161" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="444" y="32" text="회사등록" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="31" x="516" y="32" text="신규조직 등록" measuredWidth="96" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="32" x="617" y="32" text="조직코드 종료" measuredWidth="96" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="33" x="68" y="33" width="113" text="2018-06-18" measuredWidth="113" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="34" x="17" y="34" text="기준일 :" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="39" y="376" text="조직코드 :" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="36" x="98" y="376" width="103" text="0400" measuredWidth="103" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="240" y="376" text="조직명 :" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="38" x="288" y="376" width="217" text="경영지원본부" measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="39" x="98" y="441" width="113" text="2018-06-18" measuredWidth="113" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="40" x="27" y="442" text="최초개설일 :" measuredWidth="73" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="224" y="442" text="개설사유 : " measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="42" x="288" y="441" width="217" text="조직확장" measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="43" x="98" y="476" width="113" text="9999-12-31" measuredWidth="113" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="44" x="31" y="477" text="조직폐쇄일:" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="224" y="477" text="패쇄사유 : " measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="46" x="288" y="476" width="217" measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="35" y="336" text="상위조직 : " measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="48" x="98" y="336" width="407" text="경영지원본부" measuredWidth="407" measuredHeight="23" background="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="27" y="513" text="조직영문명 :" measuredWidth="73" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="98" y="513" width="407" text="경영지원본부" measuredWidth="407" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="39" y="409" text="조직레벨 :" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="52" x="99" y="408" width="102" text="본부" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="228" y="409" text="정렬순서 :" measuredWidth="61" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="54" x="289" y="409" width="103" text="0400" measuredWidth="103" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="55" x="98" y="546" width="407" height="65" text="2018 경영혁신으로 조직변경 적용" measuredWidth="407" measuredHeight="65" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="59" y="546" text="비고 : " measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="58" x="221" y="622" text="저장" measuredWidth="44" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="59" x="271" y="623" text="닫기" measuredWidth="44" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
