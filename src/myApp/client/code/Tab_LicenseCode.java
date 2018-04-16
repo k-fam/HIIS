@@ -60,7 +60,7 @@ public class Tab_LicenseCode extends VerticalLayoutContainer implements Interfac
 	public void retrieve() {
 		GridRetrieveData<LicenseCodeModel> service = new GridRetrieveData<LicenseCodeModel>(grid.getStore());
 		service.addParam("licenseName", licenseName.getValue());
-		service.retrieveAll("sys.LicenseCode.selectByName");
+		service.retrieve("sys.LicenseCode.selectByName");
 	}
 
 	@Override

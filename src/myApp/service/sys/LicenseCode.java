@@ -46,4 +46,5 @@ public class LicenseCode {
 		UpdateDataModel<LicenseCodeModel> updateModel = new UpdateDataModel<LicenseCodeModel>(); 
 		updateModel.deleteModel(sqlSession, request.getList(), mapperName, result);
 	}
+	
 }

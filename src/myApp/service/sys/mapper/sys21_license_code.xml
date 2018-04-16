@@ -22,7 +22,7 @@
 <select id="selectByName" resultMap="mapper" parameterType="String">
 	select 	*
 	from 	sys21_license_code
-	where	sys21_license_nm like '%' + nvl(#{licenseName},'%') + '%'  
+	where	sys21_license_nm like #{licenseName}  
 	order by sys21_license_nm
 </select>
 
