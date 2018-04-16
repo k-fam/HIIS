@@ -33,6 +33,16 @@
 	where	table_name = #{table_name}  	
 </select>
 
+<select id="getColumnListTibero" resultMap="columnList" parameterType="String" >
+	select	table_name
+	,		column_name
+	,		data_type
+	,		nullable
+	from 	all_tab_cols
+	where	table_name = #{table_name}  	
+</select>
+
+
 <select id="getColumnListMSSQL" resultMap="columnList" parameterType="String" >
 	select 	upper(table_name) table_name
 	,		upper(column_name) column_name 

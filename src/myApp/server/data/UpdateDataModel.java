@@ -43,8 +43,9 @@ public class UpdateDataModel<T extends AbstractDataModel> {
 
 		Map<String, String> resultMap = new HashMap<String, String>();
 
-		// MS-SQL Column list 
-		List<ColumnModel> columnList = sqlSession.selectList("dbConfig.getColumnList", tableName.toUpperCase());
+		// BD마다 스키마가 다르다. 
+		// 오라클, MS-SQL, Tibero 등. 
+		List<ColumnModel> columnList = sqlSession.selectList("dbConfig.getColumnListTibero", tableName.toUpperCase());
 
 		List<AbstractDataModel> updateList = new ArrayList<AbstractDataModel>(); 
 		for(ResultMapping mapping : sqlSession.getConfiguration().getResultMap(tableName + ".mapper").getResultMappings()){

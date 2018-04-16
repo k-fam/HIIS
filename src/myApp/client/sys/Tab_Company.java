@@ -27,17 +27,17 @@ public class Tab_Company extends VerticalLayoutContainer implements InterfaceGri
 	private CompanyModelProperties properties = GWT.create(CompanyModelProperties.class);
 	private Grid<CompanyModel> grid = this.buildGrid();
 	private TextField companyName = new TextField(); 
-	private ComboBoxField companyTypeName = new ComboBoxField("CompanyTypeCode");
+//	private ComboBoxField companyTypeName = new ComboBoxField("CompanyTypeCode");
 	
 	public Tab_Company() {
 		
 		SearchBarBuilder searchBarBuilder = new SearchBarBuilder(this);
-		searchBarBuilder.addComboBox(companyTypeName, "기관구분", 200, 60); 
+//		searchBarBuilder.addComboBox(companyTypeName, "회사구분", 200, 60); 
 
-		companyTypeName.add("전체");
-		companyTypeName.setText("전체");
+//		companyTypeName.add("전체");
+//		companyTypeName.setText("전체");
 		
-		searchBarBuilder.addTextField(companyName, "기관명", 150, 50, true); 
+		searchBarBuilder.addTextField(companyName, "회사명", 300, 50, true); 
 
 		searchBarBuilder.addRetrieveButton(); 
 		searchBarBuilder.addUpdateButton();
@@ -89,16 +89,16 @@ public class Tab_Company extends VerticalLayoutContainer implements InterfaceGri
 	@Override
 	public void retrieve() {
 		
-		String companyTypeCode = companyTypeName.getCode();
-		if(companyTypeCode == null){
-			companyTypeCode = "%"; 
-		}
+//		String companyTypeCode = companyTypeName.getCode();
+//		if(companyTypeCode == null){
+//			companyTypeCode = "%"; 
+//		}
 		String name = companyName.getText();
 		
 		
 		GridRetrieveData<CompanyModel> service = new GridRetrieveData<CompanyModel>(grid.getStore()); 
 		service.addParam("companyName", name);
-		service.addParam("companyTypeCode", companyTypeCode);
+//		service.addParam("companyTypeCode", companyTypeCode);
 		service.retrieve("sys.Company.selectByName");
 	}
 
