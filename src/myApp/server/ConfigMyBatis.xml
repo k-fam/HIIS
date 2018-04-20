@@ -70,6 +70,8 @@
 	<mapper resource="myApp/service/org/mapper/org01_code.xml"/>
 	<mapper resource="myApp/service/org/mapper/org02_info.xml"/>
 
+
+
 	<mapper resource="myApp/service/sys/mapper/sys00_TabComments.xml"/>
 	<mapper resource="myApp/service/sys/mapper/sys00_ColComments.xml"/>
 	
