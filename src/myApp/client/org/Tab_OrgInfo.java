@@ -71,7 +71,6 @@ public class Tab_OrgInfo extends VerticalLayoutContainer implements InterfaceSer
 		buttonBar.add(createRoot);
 
 		TextButton addSubMenu = new TextButton("조직등록");
-		addSubMenu.setWidth(100);
 		addSubMenu.addSelectHandler(new SelectHandler(){
 			@Override
 			public void onSelect(SelectEvent event) {
@@ -81,7 +80,6 @@ public class Tab_OrgInfo extends VerticalLayoutContainer implements InterfaceSer
 		buttonBar.add(addSubMenu);
 
 		TextButton updateButton = new TextButton("조직패쇄");
-		updateButton.setWidth(100);
 		updateButton.addSelectHandler(new SelectHandler(){
 			@Override
 			public void onSelect(SelectEvent event) {
