@@ -11,8 +11,8 @@
 	<result column="org01_org_cd"		property="orgCode"/>
 	<result column="org01_open_date"	property="openDate"/>
 	<result column="org01_close_date"	property="closeDate"/>
-	<result column="org01_open_cd"		property="openCode"/>
-	<result column="org01_close_cd"		property="closeCode"/>
+	<result column="org01_open_reason"	property="openReason"/>
+	<result column="org01_close_reason"	property="closeReason"/>
 	<result column="org01_note"			property="note"/>
 </resultMap>
 

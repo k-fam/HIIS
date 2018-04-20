@@ -23,6 +23,7 @@ import com.sencha.gxt.widget.core.client.form.FieldLabel;
 import com.sencha.gxt.widget.core.client.form.FormPanel;
 import com.sencha.gxt.widget.core.client.form.PasswordField;
 import com.sencha.gxt.widget.core.client.form.TextField;
+import com.sencha.gxt.widget.core.client.info.Info;
 
 public class Main_Login implements InterfaceServiceCall {
 	
@@ -99,7 +100,6 @@ public class Main_Login implements InterfaceServiceCall {
 			
 			UserModel user = (UserModel) result.getResult(0); 
 			LoginUser.setLoginUser(user); 
-
 			openFrame(); 
 		}
 		else {

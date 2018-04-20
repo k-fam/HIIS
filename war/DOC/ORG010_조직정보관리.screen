@@ -36,17 +36,11 @@
   <widgets xsi:type="model:Label" id="41" x="224" y="442" text="개설사유 : " measuredWidth="65" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="42" x="288" y="441" width="217" text="조직확장" measuredWidth="217" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:DateField" id="43" x="98" y="476" width="113" text="9999-12-31" measuredWidth="113" measuredHeight="23"/>
   <widgets xsi:type="model:Label" id="44" x="31" y="477" text="조직폐쇄일:" measuredWidth="69" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="45" x="224" y="477" text="패쇄사유 : " measuredWidth="65" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Combo" id="46" x="288" y="476" width="217" measuredWidth="217" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="47" x="35" y="336" text="상위조직 : " measuredWidth="65" measuredHeight="23">
@@ -83,6 +77,12 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="59" x="271" y="623" text="닫기" measuredWidth="44" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="60" x="289" y="442" width="217" text="조직 확장" measuredWidth="217" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="61" x="289" y="477" width="217" measuredWidth="217" measuredHeight="23">
     <font/>
   </widgets>
   <hRuler/>

@@ -14,6 +14,7 @@ public interface MenuModelProperties extends PropertyAccess<MenuModel> {
 	ValueProvider<MenuModel, Boolean> 	hiddenYnFlag();
 	ValueProvider<MenuModel, String> 	seq();
 	ValueProvider<MenuModel, String> 	note();
+	ValueProvider<MenuModel, String> 	actionCell();
 }
 
 

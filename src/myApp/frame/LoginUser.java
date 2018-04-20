@@ -17,6 +17,7 @@ public class LoginUser {
 
 	public static void setLoginUser(UserModel loginUser) {
 		LoginUser.loginUser = loginUser;
+		LoginUser.setLoginCompany(loginUser.getCompanyModel());
 	}
 	
 	public static void setLoginCompany(CompanyModel companyModel){

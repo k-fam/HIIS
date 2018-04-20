@@ -10,8 +10,8 @@ public class OrgCodeModel extends AbstractDataModel {
 	private String 	orgCode;
 	private Date 	openDate; 
 	private Date 	closeDate;
-	private String 	openCode;
-	private String 	closeCode;
+	private String 	openReason;
+	private String 	closeReason;
 	private String 	note;
 		
 	@Override
@@ -64,20 +64,20 @@ public class OrgCodeModel extends AbstractDataModel {
 		this.closeDate = closeDate;
 	}
 
-	public String getOpenCode() {
-		return openCode;
+	public String getOpenReason() {
+		return openReason;
 	}
 
-	public void setOpenCode(String openCode) {
-		this.openCode = openCode;
+	public void setOpenReason(String openReason) {
+		this.openReason = openReason;
 	}
 
-	public String getCloseCode() {
-		return closeCode;
+	public String getCloseReason() {
+		return closeReason;
 	}
 
-	public void setCloseCode(String closeCode) {
-		this.closeCode = closeCode;
+	public void setCloseReason(String closeReason) {
+		this.closeReason = closeReason;
 	}
 
 	public String getNote() {

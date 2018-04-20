@@ -25,7 +25,6 @@ public class TreeGridInsertRow<T> implements InterfaceServiceCall{
 	}
 
 	public void addItem(TreeStore<T> treeStore, T parentModel, AbstractDataModel insertModel){
-
 		
 		this.treeStore = treeStore;
 		this.parentModel = parentModel; 

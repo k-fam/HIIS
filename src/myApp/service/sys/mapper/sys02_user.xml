@@ -66,7 +66,7 @@
 
 <select id="selectByLoginInfo" resultMap="mapper" parameterType="HashMap">
 	select 	sys02_user.*,
-			sys01_company.*,  
+			sys01_company.*,
 			case when sys02_company_id = 2000001 then 'true' else 'false' end sys02_admin_yn   
 	from 	sys02_user, sys01_company 
 	where 	sys02_login_id 	= #{loginId}

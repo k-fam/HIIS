@@ -14,7 +14,7 @@ public interface OrgCodeModelProperties extends PropertyAccess<OrgInfoModel> {
 	ValueProvider<OrgCodeModel, String> orgCode();
 	ValueProvider<OrgCodeModel, Date> 	openDate();
 	ValueProvider<OrgCodeModel, Date> 	closeDate();
-	ValueProvider<OrgCodeModel, String> openCode();
-	ValueProvider<OrgCodeModel, String> closeCode();
+	ValueProvider<OrgCodeModel, String> openReason();
+	ValueProvider<OrgCodeModel, String> closeReason();
 	ValueProvider<OrgCodeModel, String> note();
 } 

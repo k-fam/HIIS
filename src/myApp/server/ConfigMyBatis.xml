@@ -34,7 +34,7 @@
 
 		<!-- Tibero (티베로)		-->
 			<property name="driver" value="com.tmax.tibero.jdbc.TbDriver" />
-			<property name="url" value="jdbc:tibero:thin:@172.20.200.247:8629:HDB" />
+			<property name="url" value="jdbc:tibero:thin:@183.96.184.119:8629:HDB" />
 			<property name="username" value="hiis" />
 			<property name="password" value="hdidms" />
 

@@ -8,10 +8,9 @@ import myApp.frame.ui.AbstractDataModel;
 public class OrgInfoModel extends AbstractDataModel {
 	private Long 	infoId;
 	private Date	modDate ;
-	private String 	modCode;
-	private String 	modName ; 
+	private String 	modReason;
 	private String 	modDetail ;
-	private Long 	parentId ;
+	private Long 	parentCodeId ;
 	private Long 	codeId;
 	private String 	korName;
 	private String 	shortName;
@@ -21,7 +20,7 @@ public class OrgInfoModel extends AbstractDataModel {
 	private String 	sortOrder;
 	private String 	note;
 	
-	private OrgCodeModel orgCodeModel;
+	private OrgCodeModel orgCodeModel = new OrgCodeModel() ;
 
 	private List<AbstractDataModel> childList;
 	
@@ -51,20 +50,12 @@ public class OrgInfoModel extends AbstractDataModel {
 		this.modDate = modDate;
 	}
 
-	public String getModCode() {
-		return modCode;
+	public String getModReason() {
+		return modReason;
 	}
 
-	public void setModCode(String modCode) {
-		this.modCode = modCode;
-	}
-
-	public String getModName() {
-		return modName;
-	}
-
-	public void setModName(String modName) {
-		this.modName = modName;
+	public void setModReason(String modReason) {
+		this.modReason = modReason;
 	}
 
 	public String getModDetail() {
@@ -75,12 +66,12 @@ public class OrgInfoModel extends AbstractDataModel {
 		this.modDetail = modDetail;
 	}
 
-	public Long getParentId() {
-		return parentId;
+	public Long getParentCodeId() {
+		return parentCodeId;
 	}
 
-	public void setParentId(Long parentId) {
-		this.parentId = parentId;
+	public void setParentCodeId(Long parentCodeId) {
+		this.parentCodeId = parentCodeId;
 	}
 
 	public Long getCodeId() {
@@ -163,4 +154,53 @@ public class OrgInfoModel extends AbstractDataModel {
 		this.childList = childList;
 	}
 	
+	// orgCodeModel get/set methods 
+	public String getOrgCode() {
+		return orgCodeModel.getOrgCode();
+	}
+
+	public void setOrgCode(String orgCode) {
+		orgCodeModel.setOrgCode(orgCode);
+	}
+
+	public Date getOpenDate() {
+		return orgCodeModel.getOpenDate();
+	}
+
+	public void setOpenDate(Date openDate) {
+		orgCodeModel.setOpenDate(openDate);
+	}
+
+	public Date getCloseDate() {
+		return orgCodeModel.getCloseDate();
+	}
+
+	public void setCloseDate(Date closeDate) {
+		orgCodeModel.setCloseDate(closeDate);
+	}
+
+	public String getOpenReason() {
+		return orgCodeModel.getOpenReason(); 
+	}
+
+	public void setOpenReason(String openReason) {
+		orgCodeModel.setOpenReason(openReason);
+	}
+
+	public String getCloseReason() {
+		
+		return orgCodeModel.getCloseReason(); 
+	}
+
+	public void setCloseReason(String closeReason) {
+		orgCodeModel.setCloseReason(closeReason);
+	}
+
+//	public String getCodeNote() {
+//		return orgCodeModel.getNote(); 
+//	}
+//
+//	public void setCodeNote(String note) {
+//		orgCodeModel.setNote(note);
+//	}
 }

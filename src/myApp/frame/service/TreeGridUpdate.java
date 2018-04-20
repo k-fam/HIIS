@@ -17,6 +17,7 @@ public class TreeGridUpdate<T> implements InterfaceServiceCall{
 	private Map<String, Object> param = new HashMap<String, Object>();
 	
 	public TreeGridUpdate(){
+		Info.display("tree grid update", "update is called");
 	} 
 	
 	public void addParam(String key, Object data){
@@ -25,11 +26,13 @@ public class TreeGridUpdate<T> implements InterfaceServiceCall{
 	
 	public void update(TreeStore<T> treeStore, String serviceName){
 
+		Info.display("tree grid update", "update is called");
+		
 		this.treeStore = treeStore;
 
+		Info.display("count", "" + treeStore.getModifiedRecords().size());
+		
 		if (treeStore.getModifiedRecords().size() > 0 ) {
-			
-			//Info.display("count", "" + treeStore.getModifiedRecords().size());
 			
 			List<AbstractDataModel> updateList = new ArrayList<AbstractDataModel>();
 			

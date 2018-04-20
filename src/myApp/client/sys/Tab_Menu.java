@@ -2,6 +2,8 @@ package myApp.client.sys;
 
 import java.util.List;
 
+import myApp.client.pay.Popup_CopyPay;
+import myApp.client.pay.model.PaydayModel;
 import myApp.client.sys.model.MenuModel;
 import myApp.client.sys.model.MenuModelProperties;
 import myApp.frame.service.InterfaceServiceCall;
@@ -14,6 +16,8 @@ import myApp.frame.service.TreeGridUpdate;
 import myApp.frame.ui.AbstractDataModel;
 import myApp.frame.ui.SimpleMessage;
 import myApp.frame.ui.builder.GridBuilder;
+
+import com.google.gwt.cell.client.ActionCell;
 import com.google.gwt.core.client.GWT;
 import com.sencha.gxt.core.client.Style.SelectionMode;
 import com.sencha.gxt.widget.core.client.button.ButtonBar;
@@ -120,6 +124,17 @@ public class Tab_Menu extends VerticalLayoutContainer implements InterfaceServic
 		gridBuilder.addBoolean(properties.hiddenYnFlag(), 50, "숨김") ;
 		gridBuilder.addText(properties.note(), 300, "상세설명", new TextField());
 	
+		ActionCell<String> copyPayButtonCell = new ActionCell<String>("급여복사", new ActionCell.Delegate<String>(){
+			@Override
+			public void execute(String arg0) {
+				Info.display("ok", "ok");
+//				PaydayModel paydayModel = grid.getSelectionModel().getSelectedItem(); 
+//				new Popup_CopyPay(paydayModel).show();
+			}
+		});
+		gridBuilder.addCell(properties.actionCell(), 80, "급여복사", copyPayButtonCell) ;
+		
+		
 		return gridBuilder.getTreeGrid(2);  
 	}
 

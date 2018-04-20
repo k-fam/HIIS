@@ -75,6 +75,7 @@ public class UpdateDataModel<T extends AbstractDataModel> {
 				result.fail(-1, "update fail : \n" + e.getMessage());
 			    result.setMessage("update fail");
 				e.printStackTrace();
+				return; 
 			}
 			
 			T updateModel = sqlSession.selectOne(tableName + ".selectById", dataModel.getKeyId());
@@ -91,7 +92,7 @@ public class UpdateDataModel<T extends AbstractDataModel> {
 			if(data.getClass().getTypeName().indexOf("Date") > 0) {
 				Date date = (Date)data;
 				
-				// oracle 
+				// oracle & tibero
 				dataString = "to_date('" +  new SimpleDateFormat("yyyyMMdd").format(date) + "', 'yyyymmdd')";
 				
 				// MSSQL
@@ -177,6 +178,7 @@ public class UpdateDataModel<T extends AbstractDataModel> {
 				result.fail(-1, "delete fail : \n" + e.getMessage());
 			    result.setMessage("delete fail");
 				e.printStackTrace();
+				return; 
 			}
 			
 			result.setRetrieveResult(1, "delete sucess!", list);
